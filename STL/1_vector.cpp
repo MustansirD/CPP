@@ -25,5 +25,11 @@ int main(){
 	}
 
 	//use iterator to access the values
+	vector<int>::iterator v = vec.begin();
+	
+	while(v!=vec.end()){
+		cout<<"value of v ="<<*v<<endl;
+		v++;
+	}
 	return 0;
 }
