@@ -1,0 +1,20 @@
+/*
+Pair
+Pair is a container that can be used to bind together a two values which may be of different types. Pair provides a way to store two heterogeneous objects as a single unit. 
+*/
+
+#include<iostream>
+//#include<utility>
+
+using namespace std;
+
+int main(){
+	pair<int,char>p;
+	pair<int,char>p1(2,'b');
+	p=make_pair(199.67,100.7);
+
+	cout<<p.first<<" "<<p.second<<endl;
+	cout<<p1.first<<" "<<p1.second<<endl;
+
+	return 0;
+}
